@@ -45,10 +45,13 @@ function newGame() {
   saphImage.removeAttr("data-crystalValue", numberOptions[1]);
   emeraldImage.removeAttr("data-crystalValue", numberOptions[2]);
   diamondImage.removeAttr("data-crystalValue", numberOptions[3]);
-  ran1 = Math.floor(Math.random() * (12 - 1 + 1) + 1);
-  ran2 = Math.floor(Math.random() * (12 - 1 + 1) + 1);
-  ran3 = Math.floor(Math.random() * (12 - 1 + 1) + 1);
-  ran4 = Math.floor(Math.random() * (12 - 1 + 1) + 1);
+  console.log(numberOptions[0],numberOptions[1],numberOptions[2],numberOptions[3]);
+  
+  numberOptions[0] = Math.floor(Math.random() * (12 - 1 + 1) + 1);
+  numberOptions[1] = Math.floor(Math.random() * (12 - 1 + 1) + 1);
+  numberOptions[2] = Math.floor(Math.random() * (12 - 1 + 1) + 1);
+  numberOptions[3] = Math.floor(Math.random() * (12 - 1 + 1) + 1);
+
   rubyImage.attr("data-crystalValue", numberOptions[0]);
   $("#ruby").append(rubyImage);
   saphImage.attr("data-crystalValue", numberOptions[1]);
@@ -56,6 +59,7 @@ function newGame() {
   emeraldImage.attr("data-crystalValue", numberOptions[2]);
   $("#emerald").append(emeraldImage);
   diamondImage.attr("data-crystalValue", numberOptions[3]);
+  console.log(numberOptions[0],numberOptions[1],numberOptions[2],numberOptions[3]);
   $("#diamond").append(diamondImage);
   $("#score").text(0);
 }
@@ -87,4 +91,3 @@ newGame();
 
 
 // CURRENT ERRORS WITH CODE: WHEN A WIN IS ACHIEVED LOSSES GOES AWAY ON DOCUMENT
-//VALUES RANDOMIZE AT RELOAD BUT DO NOT AFTER A LOSS OR WIN 
