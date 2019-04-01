@@ -2,8 +2,8 @@ body {
   text-align: center;
   font-family: 'Lemonada', cursive;
   background-color: rgb(49, 33, 153);
-  background-image: url("https://i.ytimg.com/vi/_kaqhy2iV7c/maxresdefault.jpg");
-  background-blend-mode: darken;
+  background-image: url("https://images.pexels.com/photos/110854/pexels-photo-110854.jpeg?cs=srgb&dl=galaxy-infinity-milky-way-110854.jpg&fm=jpg?dl&fit=crop&crop=entropy&w=1920&h=1403");
+  background-blend-mode: overlay;
   color: rgb(201, 197, 229);
 }
 
