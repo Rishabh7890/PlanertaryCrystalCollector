@@ -15,25 +15,25 @@ var numberOptions = [ran1, ran2, ran3, ran4];
 //Create variables for each image on HTML. Add same class to all 4 images but different images and value from numberOptions array. Append new image and values to respective divs on HTML
 var rubyImage = $("<img>");
 rubyImage.addClass("crystal-image");
-rubyImage.attr("src", "https://www.rgpros.com/assets/images/Buttons/Swarovski-Rhinestones-FlatBack.png");
+rubyImage.attr("src", "https://vignette.wikia.nocookie.net/marvel-contestofchampions/images/f/f4/IMG_0352.png/revision/latest/scale-to-width-down/200?cb=20170419180738");
 rubyImage.attr("data-crystalValue", numberOptions[0]);
 $("#ruby").append(rubyImage);
 
 var saphImage = $("<img>");
 saphImage.addClass("crystal-image");
-saphImage.attr("src", "https://i-cdn.phonearena.com/images/article/56413-thumb/After-Apple-Samsung-and-LG-might-be-exploring-sapphire-crystal-displays-too.jpg");
+saphImage.attr("src", "https://vignette.wikia.nocookie.net/marvel-contestofchampions/images/f/f4/Crystal_multi_tech.png/revision/latest/scale-to-width-down/200?cb=20151121235854");
 saphImage.attr("data-crystalValue", numberOptions[1]);
 $("#saphire").append(saphImage);
 
 var emeraldImage = $("<img>");
 emeraldImage.addClass("crystal-image");
-emeraldImage.attr("src", "https://www.gemselections.in/upload/category/1525082394columbian-emerald.jpg");
+emeraldImage.attr("src", "https://vignette.wikia.nocookie.net/marvel-contestofchampions/images/8/84/Crystal_multi_science.png/revision/latest/scale-to-width-down/200?cb=20151121235753");
 emeraldImage.attr("data-crystalValue", numberOptions[2]);
 $("#emerald").append(emeraldImage);
 
 var diamondImage = $("<img>");
 diamondImage.addClass("crystal-image");
-diamondImage.attr("src", "http://www.lucysmilesaway.com/wp-content/uploads/enhanced-natural-diamonds-1-74-carat-weight-round-loose-natural-diamonds-150x150.jpg");
+diamondImage.attr("src", "https://vignette.wikia.nocookie.net/marvel-contestofchampions/images/0/0e/Crystal_multi_mutant.png/revision/latest/scale-to-width-down/200?cb=20151121235714");
 diamondImage.attr("data-crystalValue", numberOptions[3]);
 $("#diamond").append(diamondImage);
 // Create a newGame function which sets counter back to 0, changes the target number and displays it on the document, remove previous random values assigned to each crystal image and generate new random values between 1 and 12 and then reassign.
@@ -89,5 +89,3 @@ $(".crystal-image").on("click", function () {
 
 newGame();
 
-
-// CURRENT ERRORS WITH CODE: WHEN A WIN IS ACHIEVED LOSSES GOES AWAY ON DOCUMENT

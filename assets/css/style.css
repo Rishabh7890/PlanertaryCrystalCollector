@@ -1,0 +1,17 @@
+body {
+  text-align: center;
+  font-family: 'Lemonada', cursive;
+  background-color: rgb(49, 33, 153);
+  background-image: url("https://i.ytimg.com/vi/_kaqhy2iV7c/maxresdefault.jpg");
+  background-blend-mode: darken;
+  color: rgb(201, 197, 229);
+}
+
+.mainHeader {
+  border-bottom: 1px solid rgb(201, 197, 229);
+  padding: 25px;
+}
+
+#targetHeader {
+  padding: 25px;
+}
