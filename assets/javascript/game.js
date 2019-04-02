@@ -1,4 +1,5 @@
-//Create variables for wins, losses and the random targetNumber between 19 and 120 to be displayed
+$( document ).ready(function() {
+  //Create variables for wins, losses and the random targetNumber between 19 and 120 to be displayed
 var wins = 0;
 var losses = 0;
 var $targetNumber = Math.floor(Math.random() * (120 - 19 + 1) + 19);
@@ -89,3 +90,4 @@ $(".crystal-image").on("click", function () {
 
 newGame();
 
+});
