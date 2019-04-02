@@ -1,6 +1,6 @@
 body {
   text-align: center;
-  font-family: 'Lemonada', cursive;
+  font-family: "Lemonada", cursive;
   background-color: rgb(49, 33, 153);
   background-image: url("https://images.pexels.com/photos/110854/pexels-photo-110854.jpeg?cs=srgb&dl=galaxy-infinity-milky-way-110854.jpg&fm=jpg?dl&fit=crop&crop=entropy&w=1920&h=1403");
   background-blend-mode: overlay;
@@ -14,4 +14,15 @@ body {
 
 #targetHeader {
   padding: 25px;
+}
+
+img:hover {
+  border-radius: 30px;
+
+  box-shadow: 10px 10px 5px 0px rgba(0, 255, 0, 0.67);
+}
+img:last-of-type:hover {
+  border-radius: 30px;
+
+  box-shadow: 10px 10px 5px 0px rgba(44, 144, 238, 0.67);
 }
