@@ -1,4 +1,4 @@
-# unit-4-game
+# Planetary Crystal Collector
 
 * [View Project](https://rishabh7890.github.io/unit-4-game/)
 
