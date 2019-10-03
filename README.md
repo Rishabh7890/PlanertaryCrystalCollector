@@ -15,5 +15,7 @@ Create a game in which 4 crystals will be displayed on the screen. A target "sco
 ## APIs Used
 - Google Fonts
 
+#### Created by Rishabh Goel
+
 
 
